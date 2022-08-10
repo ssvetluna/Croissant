@@ -1,0 +1,23 @@
+:root {
+  --main-color: green;
+}
+body {
+  text-align: center;
+  background: #f7e8a6;
+}
+h1 {
+  margin: 20px auto;
+}
+a {
+  color: var(--main-color);
+  font-size: smaller;
+}
+a:hover {
+  color: var (--main-color);
+}
+p {
+  font-size: smaller;
+}
+#mail {
+  color: blue;
+}
