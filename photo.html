@@ -11,17 +11,25 @@
       crossorigin="anonymous"
     />
     <link href="/src/style.css" rel="stylesheet" />
-    <title>Photo</title>
+    <title>Photo of croissant</title>
   </head>
   <body>
     <h1>🥐 A picture of a croissant</h1>
     <div>
-      <img src="/src/croissant.jpeg" class="img-fluid rounded m-3" />
+      <img
+        src="/src/croissant.jpeg"
+        class="img-fluid rounded m-3"
+        alt="Photo of croissant"
+      />
     </div>
     <div class="container d-flex justify-content-center">
-      <div><a href="/" class="p-3">Homepage</a></div>
-      <div><a href="/photo.html" class="p-3">Photo</a></div>
-      <div><a href="/contact.html" class="p-3">Contact</a></div>
+      <div><a href="/" class="p-3" title="Homepage croissant">Homepage</a></div>
+      <div>
+        <a href="/photo.html" class="p-3" title="Photo of croissant">Photo</a>
+      </div>
+      <div>
+        <a href="/contact.html" class="p-3" title="Our contact">Contact</a>
+      </div>
     </div>
   </body>
 </html>
